@@ -1,7 +1,8 @@
 def DNK(genom):
     check = ' '
     count = ''
-    gnm=''
+    gnm = ''
+    genom += ' '
     for position in range(len(genom)):
         if check == genom[position]:
             count += 1
